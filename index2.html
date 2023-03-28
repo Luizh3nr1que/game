@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/button.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="fightarea">
+        <div id="char">
+            <div class="lifebar">
+                <div class="bar" style="width: 10%;"></div>
+                <div>
+                    <strong class="name">--</strong><br>
+
+                    <img class="img2" src="img/tumblr_mldjraj2fI1qbaj5no1_400.gif" alt="">
+                    <div>
+                        <button class="attackButton" id="learn-more"> Atacar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="monster">
+            <div class="lifebar">
+                <div class="bar" style="width: 10%;"></div>
+                <div>
+                    <strong class=" name">--</strong><br>
+
+                    <img class="img" src="img/ryu-fighting-stance.gif" alt="">
+                    <div>
+                        <button class="attackButton" id="learn-more"> Atacar
+                        </button>
+                    </div>
+                </div>
+                <button onclick="resetPage()" class="button">
+                    <span>
+                        Reinicie o jogo
+                    </span>
+            </div>
+
+        </div>
+    </div>
+
+    <ul class="log"></ul>
+
+
+
+
+
+
+
+
+
+    <script src="/script/functions.js"></script>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>

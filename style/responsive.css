@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1034px) {
+    .log {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .log {
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .log {
+        margin-top: 113%;
+    }
+}
