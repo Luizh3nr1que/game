@@ -7,17 +7,20 @@
 @media screen and (max-width:1034px) {
     .log {
         margin-top: 50%;
+
     }
 }
 
 @media screen and (max-width:688px) {
     .log {
         margin-top: 100%;
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width:500px) {
     .log {
         margin-top: 113%;
+        font-size: 15px;
     }
 }
