@@ -36,7 +36,7 @@ const createLittleMonster = () => {
         life: 100,
         maxLife: 100,
         attack: 14,
-        defence: 3
+        defence: 8
     }
 }
 
